@@ -7,8 +7,6 @@ class AuxilarySystem {
         PowerSupply powerSupply = new PowerSupply(Boolean.TRUE);
         Mediator mediator = new Mediator(button,fan,powerSupply);
 
-
-
         mediator.press();
         mediator.powerOff();
         mediator.showPowerState();
