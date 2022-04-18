@@ -1,7 +1,7 @@
 package Architecture.Generics;
 
-class Worker extends Person{
-    Worker(String name, Integer age) {
+public class Worker extends Person{
+    public Worker(String name, Integer age) {
         super(name, age);
     }
 

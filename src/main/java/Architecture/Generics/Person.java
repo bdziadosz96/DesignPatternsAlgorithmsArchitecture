@@ -4,12 +4,12 @@ public class Person {
     private String name;
     private Integer age;
 
-    Person(final String name, final Integer age) {
+    public Person(final String name, final Integer age) {
         this.name = name;
         this.age = age;
     }
 
-    String getName() {
+    public String getName() {
         return name;
     }
 
